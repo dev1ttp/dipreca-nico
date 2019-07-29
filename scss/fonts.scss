@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'gobCL';
+    font-style: normal;
+    font-weight: 600;
+    src: local("gobCL-Bold"), local("gobCL-Bold"), url("../css/gobCL/gobCL_Bold.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'gobCL';
+    font-style: normal;
+    font-weight: 800;
+    src: local("gobCL-heavy"), local("gobCL-heavy"), url("../css/gobCL/gobCL_Heavy.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'gobCL';
+    font-style: normal;
+    font-weight: 100;
+    src: local("gobCL-light"), local("gobCL-light"), url("../css/gobCL/gobCL_Light.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'gobCL';
+    font-style: normal;
+    font-weight: 300;
+    src: local("gobCL-regular"), local("gobCL-regular"), url("../css/gobCL/gobCL_Regular.otf") format("otf");
+}
