@@ -27,6 +27,7 @@ body {
     margin: 0;
     height: 100%;
     margin-bottom: 300px;
+    @include gob-font-300;
 }
 
 .title-welcome {

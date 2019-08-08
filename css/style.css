@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "gobCL";
+  font-style: normal;
+  font-weight: 100;
+  src: local("gobCL-light"), local("gobCL-light"), url("../css/gobCL/gobCL_Light.otf") format("otf"); }
+@font-face {
   font-family: 'gobCL';
   font-style: normal;
   font-weight: 600;
@@ -11,13 +16,11 @@
 @font-face {
   font-family: 'gobCL';
   font-style: normal;
-  font-weight: 100;
-  src: local("gobCL-light"), local("gobCL-light"), url("../css/gobCL/gobCL_Light.otf") format("otf"); }
-@font-face {
-  font-family: 'gobCL';
-  font-style: normal;
   font-weight: 300;
   src: local("gobCL-regular"), local("gobCL-regular"), url("../css/gobCL/gobCL_Regular.otf") format("otf"); }
+.fas {
+  font-family: "Font Awesome 5 Free Solid", "Font Awesome 5 Free" !important; }
+
 .btn-menu {
   width: 100%;
   height: 150px;
@@ -83,7 +86,10 @@ html {
 body {
   margin: 0;
   height: 100%;
-  margin-bottom: 300px; }
+  margin-bottom: 300px;
+  font-family: gobCl;
+  font-weight: 400;
+  line-height: 110%; }
 
 .title-welcome {
   font-size: 8rem;
@@ -101,7 +107,6 @@ body {
 
 .welcome {
   font-family: gobCl;
-  font-weight: 100;
   line-height: 110%;
   color: #00549C;
   font-size: 8rem; }
@@ -143,7 +148,6 @@ footer {
     border: 3px solid;
     color: #AFAFAF;
     font-family: gobCl;
-    font-weight: 100;
     line-height: 110%; }
   .form-signin .form-control:focus {
     z-index: 2; }
@@ -173,7 +177,6 @@ footer {
   line-height: 110%; }
 .modal span {
   font-family: gobCl;
-  font-weight: 100;
   line-height: 110%;
   font-size: 2rem;
   color: #AFAFAF; }
